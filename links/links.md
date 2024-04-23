@@ -1,5 +1,5 @@
 ### 📚 Comics and stories
-Here's a list of where you can read my works:<style>.textblock{font-weight:600;line-height:1.2em}li{margin:5px auto;}</style>
+Here's a list of where you can read my works:<style>.textblock{font-weight:600;line-height:1.2em}li{margin:5px auto;}#rightnews ul {list-style: unset!important;margin-left: 0px!important;}</style>
 * [Right here, on dream dee bee dot com!](https://dreamdb.com) - Just go to the main page and pick any book. Alternatively, I publish some reformatted comics on the platforms mentioned below.
 * [Tapas](https://tapas.io/doittkarl/series) - This is where most of my community comes from. There is an app for reading comics too.
 * [MangaLib (rus)](https://mangalib.me/people/doittkarl) - Russian manga and comics website, since June 2021 started uploading Habits and "Dogtown, etc" on here.
@@ -47,7 +47,7 @@ You can send an email to <u>dreamdb dot art [located at] gmail dot com</u>.
 ---
 
 ### 📚 Комиксы и истории
-Список сайтов, где можно почитать мои работы:<style>.textblock{font-weight:600;line-height:1.2em}li{margin:5px auto;}</style>
+Список сайтов, где можно почитать мои работы:<style>.textblock{font-weight:600;line-height:1.2em}li{margin:5px auto;}#rightnews ul {list-style: unset!important;margin-left: 0px!important;}</style>
 * [Прямо здесь, на дрим де бе точка ком!](https://dreamdb.com) - Just go to the main page and pick any book. Alternatively, I publish some reformatted comics on the platforms mentioned below.
 * [Tapas (англ)](https://tapas.io/doittkarl/series) - отсюда большинство моих читателей, отличное сообщество на этом сайте, у них также есть приложение для чтения комиксов.
 * [MangaLib (рус)](https://mangalib.me/people/doittkarl) - русский сайт манги и комиксов, с июня 2021 заливаю туда Привычки и "Догтаун итд".
