@@ -46,7 +46,7 @@ You can send an email to <u>dreamdb dot art [located at] gmail dot com</u>.
 
 ---
 
-<div class="rulist">
+<div class="rulist" markdown="1">
 
 ### 📚 Комиксы и истории
 Список сайтов, где можно почитать мои работы:<style>.textblock{font-weight:600;line-height:1.2em}li{margin:5px auto;}#rightnews ul {list-style: unset!important;margin-left: 0px!important;}</style>
