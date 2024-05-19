@@ -9,7 +9,7 @@ Here's a list of where you can read my works:<style>.textblock{font-weight:600;l
 ### 💜 TIP, HELP WITH GOALS and SUBSCRIBE
 * [⭐ Boosty](https://boosty.to/doittkarl) - Tips + Subscriptions. An alternative to Patreon for Russia, etc.
 * [DonationAlerts](https://www.donationalerts.com/r/doittkarl) - For donations during live streams only.
-* [Hipolink](https://hipolink.me/doittkarl) - Very cautiously putting this here as it hasn't been tested by me yet. An alternative way for me to accept tips and payments.
+* [Hipolink](https://hipolink.me/ajcrwl) - Very cautiously putting this here as it hasn't been tested by me yet. An alternative way for me to accept tips and payments.
 
 ### 🎨 Art galleries
 I am building my own art gallery, so all new art is hosted in the art section, and soon _all of it_ will be moved to dreamDB. For now, DA is a great archive of my past art, some of it is also on Tumblr and Pixiv.
@@ -60,7 +60,7 @@ You can send an email to <u>dreamdb dot art [located at] gmail dot com</u>.
 ### 💜 ДОНАТ, ПОМОЩЬ С ЦЕЛЯМИ и ПОДПИСКА
 * [⭐ Boosty](https://boosty.to/doittkarl) - Донаты и подписки.
 * [DonationAlerts](https://www.donationalerts.com/r/doittkarl) - Для доната только во время стримов.
-* [Hipolink](https://hipolink.me/doittkarl) - Очень осторожно кладу сюда эту ссылку, т.к. пока еще не тестили сервис. Это альтернативный способ для донатов и оплаты.
+* [Hipolink](https://hipolink.me/ajcrwl) - Очень осторожно кладу сюда эту ссылку, т.к. пока еще не тестили сервис. Это альтернативный способ для донатов и оплаты.
 
 ### 🎨 Арт галереи
 Я работаю над созданием моей собственной галереи, поэтому весь новый арт теперь на dreamDB, и скоро _весь арт_ будет размещаться на сайте. Пока что DA служит архивом моих старых артов, некоторые из них также лежат на Тамблере и Пиксиве.
