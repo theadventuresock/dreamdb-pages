@@ -1,7 +1,8 @@
 # Виджет для выбора суммы доната на Hipolink
 
-![](Screenshot 2024-05-21 171738.jpg) 
-![](Screenshot 2024-05-21 171754.jpg)
+![](Screenshot 2024-05-21 171738.jpg "Как выглядит виджет") 
+
+![](Screenshot 2024-05-21 171754.jpg "Пример настройки моих ссылок")
 
 Чтобы код работал, надо чтобы все ссылки на странички разных сумм назывались одинаково и заканчивались на цифру, как на моем скрине.
 
@@ -14,17 +15,22 @@
   <div class="col-auto">
     <select class="form-control-lg fs-3 tip-select" aria-label="Choose tip amount" style="    border-radius: 20px;padding: 6px 12px 8px 12px;">
   <option selected="">Choose a tip amount</option>
+  <!-- здесь заменяете на ваши варианты доната -->
   <option value="n">ВАШ ТЕКСТ</option>
 </select>
   </div>
   <div class="col-auto">
-    <div type="button" class="btn btn-primary fs-3 m-3 mb-3"  onclick="window.location=(document.getElementsByClassName('tip-select')[0].value > 0) ? 'https://hipolink.me/ajcrwl/products/tip-'+document.getElementsByClassName('tip-select')[0].value : '#';" style="    border-radius: 20px;padding: 6px 12px 8px 12px;">Proceed</div>
+    <!-- ниже меняете мою ссылку на вашу -->
+    <div type="button" class="btn btn-primary fs-3 m-3 mb-3" 
+    onclick="window.location=(document.getElementsByClassName('tip-select')[0].value > 0) ?
+    'https://hipolink.me/ajcrwl/products/tip-'+document.getElementsByClassName('tip-select')[0].value : '#';"
+    style="border-radius: 20px;padding: 6px 12px 8px 12px;">Proceed</div>
   </div>
 </form>
 
 ```
 
-#### ‼️ Что _нужно_ заменить:
+#### ❗ Что _нужно_ заменить:
 1) строка, где написано `<option value="n">ВАШ ТЕКСТ</option>` - тут n равно цифре в конце каждой вашей ссылки, а текст - это то, что отобразится в выпадающем окошке. У меня, например, 4 опции - 20, 10, 5, 2 вот так:
 ```html
   <option value="20">$20</option>
