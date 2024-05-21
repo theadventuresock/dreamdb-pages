@@ -51,3 +51,5 @@
 Вот и всё. Должно работать.
 
 ![yay](../test/carrotbongos.png)
+
+[Мой Хипо](https://hipolink.me/ajcrwl). [Бусти](https://boosty.to/doittkarl).
