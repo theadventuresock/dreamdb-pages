@@ -964,15 +964,19 @@ Play State
 
   StatePlay.prototype.upOn = function () {
     g.currentState().keys.up = 1;
+	g.currentState().keys.space = 0
   };
   StatePlay.prototype.downOn = function () {
     g.currentState().keys.down = 1;
+	g.currentState().keys.space = 0
   };
   StatePlay.prototype.rightOn = function () {
     g.currentState().keys.right = 1;
+	g.currentState().keys.space = 0
   };
   StatePlay.prototype.leftOn = function () {
     g.currentState().keys.left = 1;
+	g.currentState().keys.space = 0
   };
   StatePlay.prototype.pauseOn = function () {
     if (!g.currentState().keys.space) { g.currentState().keys.space = 1; } else { g.currentState().keys.space = 0}
@@ -1018,13 +1022,14 @@ Play State
   };
 
   StatePlay.prototype.step = function () {
-    this.boardTiles.each("update");
-    this.boardTiles.each("render");
-   if (!g.currentState().keys.space) { this.snake.update();
-    this.snake.render();
-    this.food.update();
-    this.food.render();
-	this.time.update();
+   if (!g.currentState().keys.space) {
+		this.boardTiles.each("update");
+		this.boardTiles.each("render");
+		this.snake.update();
+		this.snake.render();
+		this.food.update();
+		this.food.render();
+		this.time.update();
 	}
   };
 

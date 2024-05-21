@@ -101,9 +101,14 @@
 			  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
 			  transition-duration: 0ms;
 			}
+			.state {font-size: small;}
+			.score:before {
+			content: "Score: ";
+			}
 			</style>
 
 			<div class="snake">
+			  <div class="state">WASD/Arrows to play, SPACE to pause.</div>
 			  <div class="stage"></div>
 			  <div class="score">0</div>
 			</div>
