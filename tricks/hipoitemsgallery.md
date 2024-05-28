@@ -143,10 +143,12 @@ document.addEventListener('DOMContentLoaded', function(){
 		jsonprod = jsonprod.products.sort(({price:a}, {price:b}) => b-a);
 			
 		function printprod(array) {
-			var cards = ''; ii = 0;
+			var cards = ''; ii = 0; var text = '';
 			while (ii < array.length && array.length > 0) {
+				
+				if (array[ii].descriptionText.content[0].hasOwnProperty('content')) { text = array[ii].descriptionText.content[0].content[0].text; } 
 			
-				cards += '<div><a href="'+window.location.href+'/products/'+array[ii].link+'"><img src="/publicfiles/'+array[ii].photoGuid+'"><span class="title">'+array[ii].headerText+'</span><span class="text">'+array[ii].descriptionText.content[0].content[0].text+'</span><span class="price">'+array[ii].price+' '+array[ii].currency+'</span></a></div>';
+				cards += '<div><a href="'+window.location.href+'/products/'+array[ii].link+'"><img src="/publicfiles/'+array[ii].photoGuid+'"><span class="title">'+array[ii].headerText+'</span><span class="text">'+text+'</span><span class="price">'+array[ii].price+' '+array[ii].currency+'</span></a></div>';
 			
 				ii++;
 			}
