@@ -126,13 +126,11 @@ h1.list:after {
 <script>
 document.addEventListener('DOMContentLoaded', function(){ 
 	var ii = 1;
-	//console.log("self ", self.__next_f);
 	var findprod = '';
 	while (ii < self.__next_f.length) {
 		if (self.__next_f[ii][1].search('"productsControl"'+':') >= 0 ) 
 		{var findprod = self.__next_f[ii][1]; break;} ii++;
 	}
-	//console.log("prod ", findprod);
 	findprod = findprod.split("productsControl");
 	findprod = findprod[1].split('"products":[');
 	findprod = findprod[1].split('],"id"');
@@ -174,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 ![](Screenshot 2024-05-28 235629.jpg "Пустотенюшка")
 
-#### Что можно поменять:
+### Что можно поменять:
 
 - **Заголовок**. Если вам не нравится слово "Shop", то его можно заменить в строке `<h1 class="list">Shop</h1>`. Заменять нужно само слово *Shop*, а код вокруг оставить. Можно эту строку вообще убрать, но не рекомендую, потому что тогда в редакторе будет пусто и вам визуально будет сложно найти этот блок HTML.
 
