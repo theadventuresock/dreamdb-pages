@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 ![](Screenshot 2024-05-28 230834.jpg "Редактор")
 
-Иии всё!
+Иии всё! Уже должно работать!
 
 Теперь на вашей странице вместо слайдера с точечками должна отобразиться галерея как на скрине в самом верху.
 
@@ -208,6 +208,8 @@ document.addEventListener('DOMContentLoaded', function(){
 }
 ```
 
+Вот и всё.
+
 ![yay](../test/carrotbongos.png)
 
-[Мой Хипо](https://hipolink.me/ajcrwl). [Бусти](https://boosty.to/doittkarl).
+Спасибы принимаю в виде деняк на [Хипо](https://hipolink.me/ajcrwl) или [Бусти](https://boosty.to/doittkarl).
