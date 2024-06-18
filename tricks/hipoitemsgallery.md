@@ -119,7 +119,7 @@ h1.list:after {
 <div class='HTML__container'>
   <div class='HTML__inner'>
 	<h1 class="list">Shop</h1>
-    <div id="stuffgal"></div>
+    <div id="stuffgal">Uh oh, scwipty non-worky. Please refresh 🔄</div>
   </div>
 </div>
 
@@ -145,8 +145,11 @@ document.addEventListener('DOMContentLoaded', function(){
 		function printprod(array) {
 			var cards = ''; ii = 0; var text = '';
 			while (ii < array.length && array.length > 0) {
-				
-				if (array[ii].descriptionText.content[0].hasOwnProperty('content')) { text = array[ii].descriptionText.content[0].content[0].text; } else {text = '';}
+			
+				text = '';				
+				if (array[ii].descriptionText.hasOwnProperty('content') ) {
+					if (array[ii].descriptionText.content[0].hasOwnProperty('content')) { text = array[ii].descriptionText.content[0].content[0].text; }
+				}
 			
 				cards += '<div><a href="'+window.location.href+'/products/'+array[ii].link+'"><img src="/publicfiles/'+array[ii].photoGuid+'"><span class="title">'+array[ii].headerText+'</span><span class="text">'+text+'</span><span class="price">'+array[ii].price+' '+array[ii].currency+'</span></a></div>';
 			
